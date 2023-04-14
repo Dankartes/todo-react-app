@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+:root {
+  --main-color: aquamarine;
+}
+
 html,
 body {
   font-family: 'Open Sans', sans-serif;
@@ -12,10 +16,10 @@ body {
 
 button {
   font: inherit;
-  background: #ff2020;
+  background: var(--main-color);
   padding: 0.5rem 2rem;
-  color: white;
-  border: 1px solid #dc2828;
+  color: black;
+  border: 1px solid green;
   margin: 0.5rem 0;
   border-radius: 5px;
   cursor: pointer;
